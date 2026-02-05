@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Ecole-Contact</title>
+</head>
+<body>
+     <!-- Navbar commune -->
+     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">
+      <img src="images/logo.png" alt="Logo" height="40"> École
+    </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="actualites.html">Actualités</a></li>
+        <li class="nav-item"><a class="nav-link" href="vie.html">Vie</a></li>
+        <li class="nav-item"><a class="nav-link" href="classes.html">Classes</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li> 
+        <li class="nav-item"><a class="nav-link" href="inscription.html">S'inscrire</a></li>      
+        <li class="nav-item"><a class="nav-link" href="aide.html">Aide</a></li>
+        <li class="nav-item"><a class="nav-link" href="programmes.html">Programmes</a></li> 
+        <li class="nav-item"><a class="nav-link" href="activites.html">Activites</a></li>      
+        <li class="nav-item"><a class="nav-link" href="galerie.html">Galerie</a></li> 
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- CONTACT SECTION -->
+<section class="py-5 bg-light">
+    <div class="container">
+        <div class="row text-center mb-5">
+            <h2 class="fw-bold">Contactez-nous</h2>
+            <p class="text-muted">
+                Une question ? Besoin d’informations supplémentaires ?  
+                Notre équipe est disponible pour vous accompagner.
+            </p>
+        </div>
+
+        <div class="row g-4">
+            <!-- FORMULAIRE -->
+            <div class="col-md-6">
+                <div class="card shadow-sm h-100">
+                    <div class="card-body">
+                        <h5 class="card-title mb-3">📩 Envoyez-nous un message</h5>
+
+                        <form>
+                            <div class="mb-3">
+                                <label class="form-label">Nom complet</label>
+                                <input type="text" class="form-control" placeholder="Ex : Jean Mukendi">
+                            </div>
+
+                            <div class="mb-3">
+                                <label class="form-label">Adresse e-mail</label>
+                                <input type="email" class="form-control" placeholder="exemple@email.com">
+                            </div>
+
+                            <div class="mb-3">
+                                <label class="form-label">Message</label>
+                                <textarea class="form-control" rows="4"
+                                    placeholder="Écrivez votre message ici..."></textarea>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary w-100">
+                                Envoyer le message
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <!-- INFOS DE CONTACT -->
+            <div class="col-md-6">
+                <div class="card shadow-sm h-100">
+                    <div class="card-body">
+                        <h5 class="card-title mb-3">📍 Nos coordonnées</h5>
+
+                        <ul class="list-unstyled">
+                            <li class="mb-3">
+                                📞 <strong>Téléphone :</strong><br>
+                                +243 812 345 678
+                            </li>
+
+                            <li class="mb-3">
+                                📧 <strong>Email :</strong><br>
+                                contact@ecole-excellence.cd
+                            </li>
+
+                            <li class="mb-3">
+                                📍 <strong>Adresse :</strong><br>
+                                Avenue de l’Éducation, N°12<br>
+                                Commune de Gombe, Kinshasa
+                            </li>
+                        </ul>
+
+                        <hr>
+
+                        <h6 class="fw-bold">🌐 Retrouvez-nous aussi sur</h6>
+
+                        <div class="d-flex flex-wrap gap-2 mt-3">
+                            <a href="#" class="btn btn-outline-primary btn-sm">
+                                Facebook
+                            </a>
+                            <a href="#" class="btn btn-outline-dark btn-sm">
+                                WhatsApp
+                            </a>
+                            <a href="#" class="btn btn-outline-danger btn-sm">
+                                Instagram
+                            </a>
+                            <a href="#" class="btn btn-outline-info btn-sm">
+                                LinkedIn
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Footer -->
+<footer class="bg-dark text-white text-center py-3">
+    <p class="mb-0">&copy; 2026 École Excellence — Tous droits réservés</p>
+</footer>
+<!-- JS Bootstrap local -->
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/script.js"></script>
+</html>

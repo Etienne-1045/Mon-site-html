@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Ecole-Inconnu</title>
+</head>
+<body>
+     <!-- Navbar commune -->
+     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">
+      <img src="images/logo.png" alt="Logo" height="40"> École
+    </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="actualites.html">Actualités</a></li>
+        <li class="nav-item"><a class="nav-link" href="vie.html">Vie</a></li>
+        <li class="nav-item"><a class="nav-link" href="classes.html">Classes</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li> 
+        <li class="nav-item"><a class="nav-link" href="inscription.html">S'inscrire</a></li>      
+        <li class="nav-item"><a class="nav-link" href="aide.html">Aide</a></li>
+        <li class="nav-item"><a class="nav-link" href="programmes.html">Programmes</a></li> 
+        <li class="nav-item"><a class="nav-link" href="activites.html">Activites</a></li>      
+        <li class="nav-item"><a class="nav-link" href="galerie.html">Galerie</a></li> 
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- GALERIE -->
+<section class="py-5 bg-light">
+    <div class="container">
+
+        <!-- TITRE -->
+        <div class="text-center mb-5">
+            <h2 class="fw-bold">Galerie de l’école</h2>
+            <p class="text-muted">
+                Découvrez en images la vie quotidienne, les activités et les événements
+                de notre établissement.
+            </p>
+        </div>
+
+        <!-- FILTRES (OPTIONNEL) -->
+        <div class="d-flex justify-content-center gap-2 mb-4">
+            <button class="btn btn-outline-primary btn-sm">Tout</button>
+            <button class="btn btn-outline-secondary btn-sm">Classes</button>
+            <button class="btn btn-outline-secondary btn-sm">Activités</button>
+            <button class="btn btn-outline-secondary btn-sm">Événements</button>
+        </div>
+
+        <!-- IMAGES -->
+        <div class="row g-4">
+
+            <!-- IMAGE 1 -->
+            <div class="col-sm-6 col-md-4">
+                <div class="card shadow-sm h-100">
+                    <img src="https://via.placeholder.com/400x250"
+                         class="card-img-top"
+                         alt="Salle de classe">
+                    <div class="card-body">
+                        <h6 class="card-title">Salle de classe moderne</h6>
+                        <p class="card-text text-muted small">
+                            Environnement propice à l’apprentissage.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- IMAGE 2 -->
+            <div class="col-sm-6 col-md-4">
+                <div class="card shadow-sm h-100">
+                    <img src="https://via.placeholder.com/400x250"
+                         class="card-img-top"
+                         alt="Activité sportive">
+                    <div class="card-body">
+                        <h6 class="card-title">Activités sportives</h6>
+                        <p class="card-text text-muted small">
+                            Développement physique et esprit d’équipe.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- IMAGE 3 -->
+            <div class="col-sm-6 col-md-4">
+                <div class="card shadow-sm h-100">
+                    <img src="https://via.placeholder.com/400x250"
+                         class="card-img-top"
+                         alt="Laboratoire">
+                    <div class="card-body">
+                        <h6 class="card-title">Laboratoire scientifique</h6>
+                        <p class="card-text text-muted small">
+                            Apprentissage pratique et expérimental.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- IMAGE 4 -->
+            <div class="col-sm-6 col-md-4">
+                <div class="card shadow-sm h-100">
+                    <img src="https://via.placeholder.com/400x250"
+                         class="card-img-top"
+                         alt="Cérémonie scolaire">
+                    <div class="card-body">
+                        <h6 class="card-title">Cérémonies scolaires</h6>
+                        <p class="card-text text-muted small">
+                            Moments forts de la vie scolaire.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- IMAGE 5 -->
+            <div class="col-sm-6 col-md-4">
+                <div class="card shadow-sm h-100">
+                    <img src="https://via.placeholder.com/400x250"
+                         class="card-img-top"
+                         alt="Bibliothèque">
+                    <div class="card-body">
+                        <h6 class="card-title">Bibliothèque</h6>
+                        <p class="card-text text-muted small">
+                            Lecture, recherche et culture générale.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- IMAGE 6 -->
+            <div class="col-sm-6 col-md-4">
+                <div class="card shadow-sm h-100">
+                    <img src="https://via.placeholder.com/400x250"
+                         class="card-img-top"
+                         alt="Sortie éducative">
+                    <div class="card-body">
+                        <h6 class="card-title">Sorties éducatives</h6>
+                        <p class="card-text text-muted small">
+                            Apprendre au-delà des salles de classe.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<!-- Footer -->
+<footer class="bg-dark text-white text-center py-3">
+    <p class="mb-0">&copy; 2026 École Excellence — Tous droits réservés</p>
+</footer>
+<!-- JS Bootstrap local -->
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>

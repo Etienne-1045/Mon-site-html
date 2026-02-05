@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulaire d'inscription</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Bar de navigation-->
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">
+      <img src="images/logo.png" alt="Logo" height="40"> École
+    </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="actualites.html">Actualités</a></li>
+        <li class="nav-item"><a class="nav-link" href="vie.html">Vie</a></li>
+        <li class="nav-item"><a class="nav-link" href="classes.html">Classes</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li> 
+        <li class="nav-item"><a class="nav-link" href="inscription.html">S'inscrire</a></li>      
+        <li class="nav-item"><a class="nav-link" href="aide.html">Aide</a></li>
+        <li class="nav-item"><a class="nav-link" href="programmes.html">Programmes</a></li> 
+        <li class="nav-item"><a class="nav-link" href="activites.html">Activites</a></li>      
+        <li class="nav-item"><a class="nav-link" href="galerie.html">Galerie</a></li>     
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- création formulaire d'inscription -->
+<div class="container mt-4">
+  <h2>Formulaire d'inscription</h2>
+  <form id="inscriptionForm">
+    <!-- Partie tuteur -->
+    <h5 class="mt-4">Renseignement Tuteur</h5>
+    <div class="mb-3">
+      <label class="form-label">Nom</label>
+      <input type="text" class="form-control" required>
+    </div>
+    <div class="mb-3">
+      <label for="tuteur_postnom" class="form-label">Post-Nom</label>
+      <input type="text" class="form-control" id="tuteur_postnom" required>
+    </div>
+    <div class="mb-3">
+      <label for="tuteur_prenom" class="form-label">Prénom</label>
+      <input type="text" class="form-control" id="tuteur_prenom" required>
+    </div>
+    <div class="mb-3">
+      <label for="tuteur_telephone" class="form-label">Télephone</label>
+      <input type="text" class="form-control" id="tuteur-telephone">
+    </div>
+    <div class="mb-3">
+      <label for="tuteur_adresse" class="form-label">Adresse Tuteur</label>
+      <input type="text" class="form-control" >
+    </div>
+
+    <!-- Partie Élève -->
+    <h5 class="mt-4">Renseignement Élève</h5>
+    <div class="mb-3">
+      <label for="eleve_nom" class="form-label">Nom</label>
+      <input type="text" class="form-control" id="eleve_nom" required>
+    </div>
+    <div class="mt-3">
+      <label for="eleve_postnom" class="form-label">Post-Nom</label>
+      <input type="text" class="form-control" id="elve_postnom">
+    </div>
+    <div class="mb-3">
+      <label for="eleve_prenom" class="form-label">Prénom</label>
+      <input type="text" class="form-control" id="eleve_prenom" required>
+    </div>
+    <div class="mb-3">
+      <label for="eleve_date_naissance" class="form-label">Date de naissance</label>
+      <input type="date" class="form-control" id="eleve_date_naissance" required>
+    </div>
+    <div class="mb-3">
+      <label for="eleve_sexe" class="form-label">Sexe</label>
+      <select class="form-select" id="eleve_sexe" required>
+        <option value="">Sélectionnez</option>
+        <option value="M">M</option>
+        <option value="F">F</option>
+      </select>
+    </div>
+    <div class="mb-3">
+      <label for="eleve_adresse" class="form-label">Adresse Eleve</label>
+      <input type="text" class="form-control" id="eleve_adresse">
+    </div>
+
+    <!-- Partie Classe et année -->
+    <div class="mb-3">
+      <label for="classe" class="form-label">Classe</label>
+      <select class="form-select" id="classe" required>
+        <option value="">Sélectionnez</option>
+        <option value="">1ère primaire</option>
+        <option value="">2ème primaire</option>
+        <option value="">3ème primaire</option>
+        <option value="">4ème primaire</option>
+      </select>
+    </div>
+    <div class="mb-3">
+      <label for="school-year" class="form-label">Année scolaire</label>
+      <select class="form-select" id="school-year" required>
+        <option value="">2025-2026</option>
+      </select>
+    </div>
+
+    <button type="submit" class="btn btn-success">Inscrire</button>
+  </form>
+
+  <div id="result" class="mt-4"></div>
+</div>
+<!-- Pied de page  -->
+<footer class="bg-dark text-white text-center py-3">
+    <p class="mb-0">&copy; 2026 École Excellence — Tous droits réservés</p>
+</footer>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
